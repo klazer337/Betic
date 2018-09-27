@@ -11,12 +11,18 @@ import Foundation
 class Projet {
     
     private var _nomDuProjet: String
+    private var _numeroDuProjet: String
     
     var nom: String {
         return self._nomDuProjet
     }
     
-    init(nom: String) {
+    var numeroDuProjet: String {
+        return self._numeroDuProjet
+    }
+    
+    init(nom: String, numeroDuProjet: String) {
         _nomDuProjet = nom
+        _numeroDuProjet = numeroDuProjet
     }
 }
