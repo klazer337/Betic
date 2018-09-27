@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0A53DCBF215CF770008846CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A53DCBE215CF770008846CC /* AppDelegate.swift */; };
-		0A53DCC1215CF770008846CC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A53DCC0215CF770008846CC /* FirstViewController.swift */; };
-		0A53DCC3215CF770008846CC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A53DCC2215CF770008846CC /* SecondViewController.swift */; };
 		0A53DCC6215CF770008846CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A53DCC4215CF770008846CC /* Main.storyboard */; };
 		0A53DCC8215CF773008846CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A53DCC7215CF773008846CC /* Assets.xcassets */; };
 		0A53DCCB215CF773008846CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A53DCC9215CF773008846CC /* LaunchScreen.storyboard */; };
+		0A53DCD6215CF83E008846CC /* Projet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A53DCD5215CF83E008846CC /* Projet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A53DCBB215CF770008846CC /* Betic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Betic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A53DCBE215CF770008846CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A53DCC0215CF770008846CC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0A53DCC2215CF770008846CC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0A53DCC5215CF770008846CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A53DCC7215CF773008846CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A53DCCA215CF773008846CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A53DCCC215CF773008846CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A53DCD5215CF83E008846CC /* Projet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +54,38 @@
 		0A53DCBD215CF770008846CC /* Betic */ = {
 			isa = PBXGroup;
 			children = (
+				0A53DCD2215CF7BA008846CC /* Model */,
+				0A53DCD3215CF7CA008846CC /* View */,
+				0A53DCD4215CF7D4008846CC /* Controller */,
 				0A53DCBE215CF770008846CC /* AppDelegate.swift */,
-				0A53DCC0215CF770008846CC /* FirstViewController.swift */,
-				0A53DCC2215CF770008846CC /* SecondViewController.swift */,
 				0A53DCC4215CF770008846CC /* Main.storyboard */,
 				0A53DCC7215CF773008846CC /* Assets.xcassets */,
 				0A53DCC9215CF773008846CC /* LaunchScreen.storyboard */,
 				0A53DCCC215CF773008846CC /* Info.plist */,
 			);
 			path = Betic;
+			sourceTree = "<group>";
+		};
+		0A53DCD2215CF7BA008846CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A53DCD5215CF83E008846CC /* Projet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A53DCD3215CF7CA008846CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A53DCD4215CF7D4008846CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A53DCC3215CF770008846CC /* SecondViewController.swift in Sources */,
 				0A53DCBF215CF770008846CC /* AppDelegate.swift in Sources */,
-				0A53DCC1215CF770008846CC /* FirstViewController.swift in Sources */,
+				0A53DCD6215CF83E008846CC /* Projet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
